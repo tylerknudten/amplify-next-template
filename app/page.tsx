@@ -38,6 +38,7 @@ export default function App() {
   
   return (
     <main>
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <h1>My todos</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
